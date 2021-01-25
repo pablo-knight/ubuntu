@@ -1,4 +1,5 @@
 <uwsgi>
+    <plugin>python</plugin>
     <socket>/run/uwsgi/app/privacyidea/privacyidea.socket</socket>
     <chdir>/etc/privacyidea/</chdir>
     <venv>/opt/privacyidea/</venv>
